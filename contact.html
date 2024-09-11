@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C@ke_ndStuff</title>
+  </head>
+  <script src="contact.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 45px;
+      padding-left: 8%;
+      padding-right: 8%;
+      background-color: #e4e3e3;
+      height: 30px;
+      width: 84%;
+      padding-bottom: 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      transition: 0.6s;
+      z-index: 100000;
+    }
+
+    .logo {
+      color: black;
+      font-size: 35px;
+      letter-spacing: 1px;
+      cursor: pointer;
+    }
+    span {
+      color: #f9004d;
+    }
+    nav ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 10px 25px;
+    }
+    nav ul li a {
+      color: black;
+      text-decoration: none;
+      font-size: large;
+      text-transform: capitalize;
+    }
+    nav ul li a:hover {
+      color: #f9004d;
+      transition: 0.4s;
+    }
+    .btn {
+      background-color: #f9004d;
+      color: white;
+      text-decoration: none;
+      border: 2px solid transparent;
+      border-radius: 30px;
+      padding: 10px 25px;
+      font-weight: bold;
+      transition: transform 0.4s;
+    }
+    .btn:hover {
+      transform: scale(1.2);
+    }
+    header {
+      background-color: #d63384;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    #contact {
+      padding: 30px;
+      background: white;
+      margin-top: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    #contact h1 {
+      margin-top: 0;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .form-group textarea {
+      resize: vertical;
+    }
+    .form-group button {
+      display: inline-block;
+      background-color: #d63384;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .form-group button:hover {
+      background-color: #c02976;
+    }
+    .container {
+      margin-top: 100px;
+    }
+    footer {
+      background-color: #d63384;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: auto;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+  <body>
+    <nav>
+      <h3 class="logo">C@ke_nd<span>Stuff</span></h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+      <a href="https://www.instagram.com/cakea_ndstuff__official_/" class="btn">
+        Follow in @instagram</a
+      >
+    </nav>
+    <div class="container">
+      <section id="contact">
+        <h1>Contact Us</h1>
+        <p>
+          We'd love to hear from you! Please fill out the form below to get in
+          touch with us.
+        </p>
+        <form id="myform" onsubmit="handleSubmit()">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 C@ke_ndStuff. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
