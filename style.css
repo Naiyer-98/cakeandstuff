@@ -1,0 +1,389 @@
+body{
+    background-color:rgb(89, 225, 203);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #e4e3e3;
+    height: 30px;
+    width: 84%;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+    z-index: 100000;
+ 
+ }
+ 
+ .logo{
+     color: black;
+     font-size: 35px;
+     letter-spacing: 1px;
+     cursor: pointer;
+ }
+ span{
+     color: #f9004d;
+ }
+ nav ul li {
+     list-style: none;
+     display: inline-block;
+     padding: 10px 25px;
+     }
+ nav ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 26px;
+   text-transform: capitalize;       
+     }
+     nav ul li a:hover{
+         color: #f9004d;
+         transition: 0.4s;
+     }
+ .btn{
+         background-color: #f9004d;
+         color: white;
+         text-decoration: none;
+         border: 2px solid transparent;
+         border-radius: 30px;
+         padding: 10px 25px;
+         font-weight: bold;
+         transition: transform .4s;
+     } 
+ .btn:hover{
+     transform: scale(1.2);
+ }
+
+ .main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+  }
+
+  .main img {
+    width: 400px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+
+  .main h3 {
+    font-size: 55px;
+    color: white;
+  }
+
+  .main p {
+    color: rgb(62, 61, 61);
+    margin-top: 22px;
+    color: black;
+    font-size: 20px;
+  }
+
+  .main button {
+    width: 140px;
+    height: 40px;
+    background-color: #f9004d ;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 22px;
+    cursor: pointer;
+    font-size: 19px;
+  }
+
+/*--------------------------------------Card Part----------------------------------------------------- */
+
+
+.container{
+  color :#f2c53f;
+  width: 100%;
+  padding: 100px 0px;
+  background-color: rgb(250, 241, 241);
+  margin-top: 30px;
+  border-radius: 30px;
+  }
+  .tittle h2{
+      color: rgb(21, 21, 21);
+      font-size: 65px;
+      width: 1130px;
+      margin: 30px auto;
+      text-align: center;
+  }
+  .box{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 400px;
+  }
+  .card{
+  height:400px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #e4e3e3;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  }
+ .card:hover{
+  height: 450px;
+ }
+  
+  h5{
+      color: rgb(19, 18, 18);
+      font-size: 23px;
+      margin-bottom: 15px;
+  }
+  .pra p{
+      color: rgba(26, 26, 26, 0.8);
+      font-size: 16px;
+      line-height: 27px;
+      margin-bottom: 25px;
+  }
+  .card:hover{
+    transition: 1.2s;
+  }
+  .card .button{
+      background-color: #1a1919;
+      color: white;
+      text-decoration: none;
+      border: 2px solid transparent;
+      font-weight: bold;
+      padding: 9px 22px;
+      border-radius: 30px;
+      transition: .4s;
+  }
+  .card .button:hover{
+      background-color: transparent;
+      border: 2px solid #b4b1b2;
+      color: rgb(3, 3, 3);
+      cursor: pointer;
+      
+  }
+  .card img{
+    height: auto;
+    width: 150px;
+    border-radius: 50%;
+  }
+
+
+  /*--------------------------------------blogs Part----------------------------------------------------- */
+
+  .slide {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: rgb(250, 241, 241);
+    border-radius: 30px;
+}
+.slide.active {
+    display: flex;
+}
+.slide img {
+    max-width: 30%;
+    height: 45  0px;
+    margin: 10px;
+}
+.controls {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#btn{
+    width: 100px;
+    height: 50px;
+  border-radius: 30px;
+  background-color: #f9004d;
+  font-size:15px;
+  color: white;
+  border-color: #bebbb3;
+  margin-left: 550px;
+  padding-top: -50px;
+  cursor: pointer;
+
+}
+#btn:hover{
+    height: 60px;
+    margin-top: -30px;
+}
+
+#btn1{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    font-size:15px;
+    color:  white;
+    border-color: #cdcdcd;
+    margin-left: 300px; 
+    cursor: pointer;
+   
+  }
+  #btn1:hover{
+    height: 60px;
+        margin-top: -30px;
+
+}
+
+  /*--------------------------------------Comment Card---------------------------------------------------- */
+
+  .CommentCard{
+    background-color: rgb(250, 241, 241);
+    border-radius: 30px;
+    text-align: center;
+
+  }
+  .tittle1{
+    font-size: x-large;
+
+
+  }
+  .tittle1 h2{
+    padding-top: 50px;
+  }
+  .box1{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 200px;
+}
+.card1{
+height:200px;
+width: 335px;
+padding: 20px 35px;
+background: #e4e3e3;
+border-radius: 20px;
+margin: 15px;
+position: relative;
+overflow: hidden;
+text-align: center;
+
+
+}
+
+.pra1 p{
+    color: rgba(26, 26, 26, 0.8);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.commentImg img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 20px;
+
+}
+
+/*------------------------------------------------Footer--------------------------------------------------------------- */
+
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    height: 220px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+footer .footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer .footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 250px;
+}
+footer h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+footer p {
+    margin: 5px 0;
+}
+footer .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+footer .social-icons a:hover {
+    color: #d35400;
+}
+footer .footer-bottom {
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+
+
+footer .wave{
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(/wave-grey.png);
+  background-size: 1000px 100px;
+}
+
+footer .wave#wave1{
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWave 4s linear infinite;
+}
+
+footer .wave#wave2{
+  z-index: 999;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWave-02 4s linear infinite;
+
+}
+footer .wave#wave3{
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWave-02 3s linear infinite;
+
+}
+footer .wave#wave4{
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animateWave-02 3s linear infinite;
+
+}
+
+@keyframes animateWave{
+  0%{
+    background-position-x : 1000px; ;
+  }
+  100%{
+    background-position-x : 0px; ;
+  }
+}
+
+@keyframes animateWave-02{
+  0%{
+    background-position-x : 0px; ;
+  }
+  100%{
+    background-position-x : 100 0px; ;
+  }
+}
