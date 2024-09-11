@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>C@ke_ndStuff</title>
+  </head>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 45px;
+      padding-left: 8%;
+      padding-right: 8%;
+      background-color: #e4e3e3;
+      height: 30px;
+      width: 84%;
+      padding-bottom: 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      transition: 0.6s;
+      z-index: 100000;
+    }
+
+    .logo {
+      color: black;
+      font-size: 35px;
+      letter-spacing: 1px;
+      cursor: pointer;
+    }
+    span {
+      color: #f9004d;
+    }
+    nav ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 10px 25px;
+    }
+    nav ul li a {
+      color: black;
+      text-decoration: none;
+      font-size: large;
+      text-transform: capitalize;
+    }
+    nav ul li a:hover {
+      color: #f9004d;
+      transition: 0.4s;
+    }
+    .btn {
+      background-color: #f9004d;
+      color: white;
+      text-decoration: none;
+      border: 2px solid transparent;
+      border-radius: 30px;
+      padding: 10px 25px;
+      font-weight: bold;
+      transition: transform 0.4s;
+    }
+    .btn:hover {
+      transform: scale(1.2);
+    }
+    header {
+      background-color: #d63384;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    #skills {
+      padding: 30px;
+      background: white;
+      margin-top: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    #skills h1 {
+      margin-top: 0;
+    }
+    .skill {
+      margin-bottom: 20px;
+    }
+    .skill img {
+      float: left;
+      margin-right: 20px;
+      border-radius: 10px;
+    }
+    .skill h2 {
+      margin-top: 0;
+    }
+    .skill p {
+      clear: both;
+      text-align: justify;
+    }
+    footer {
+      background-color: #d63384;
+      color: white;
+      text-align: center;
+      padding: 5px 0;
+      position: auto;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+  <body>
+    <nav>
+      <h3 class="logo">C@ke_nd<span>Stuff</span></h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+      <a href="https://www.instagram.com/cakea_ndstuff__official_/" class="btn">
+        Follow in @instagram</a
+      >
+    </nav>
+    <div class="container">
+      <section id="skills">
+        <h1>Our Skills</h1>
+
+        <div class="skill">
+          <img src="./blogimage/baking.jpg" alt="Baking" width="200" />
+          <h2>Baking</h2>
+          <p>
+            Our bakers are experts in the art of baking, creating cakes that are
+            not only visually stunning but also delicious. We use the finest
+            ingredients to ensure the perfect texture and flavor in every bite.
+          </p>
+        </div>
+
+        <div class="skill">
+          <img src="./blogimage/deco.webp" alt="Cake Decorating" width="200" />
+          <h2>Cake Decorating</h2>
+          <p>
+            Our cake decorators have a keen eye for detail and creativity. From
+            intricate designs to elegant finishes, they can bring any vision to
+            life with their skilled hands.
+          </p>
+        </div>
+
+        <div class="skill">
+          <img src="./blogimage/flavor.jpg" alt="Flavor Creation" width="200" />
+          <h2>Flavor Creation</h2>
+          <p>
+            We pride ourselves on our unique and delectable flavors. Our team is
+            constantly experimenting with new combinations to surprise and
+            delight your taste buds.
+          </p>
+        </div>
+
+        <div class="skill">
+          <img src="./blogimage/sugar.jpg" alt="Sugar Craft" width="200" />
+          <h2>Sugar Craft</h2>
+          <p>
+            Our sugar craft skills allow us to create intricate edible
+            decorations. From delicate flowers to detailed figurines, our sugar
+            art adds a special touch to any cake.
+          </p>
+        </div>
+
+        <div class="skill">
+          <img src="./blogimage/cust.jpg" alt="Customer Service" width="200" />
+          <h2>Customer Service</h2>
+          <p>
+            At C@ke_ndStuff, we believe in providing exceptional customer
+            service. We work closely with our clients to ensure their needs and
+            expectations are met, making their cake experience truly memorable.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2024C@ke_ndStuff. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
